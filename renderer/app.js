@@ -21,3 +21,6 @@ document.querySelector('#btn4').addEventListener('click', async () => {
   console.log(result)
   document.querySelector('#img-4').src = result
 })
+document.querySelector('#btn5').addEventListener('click', async () => {
+  let result = await window.myApi.testnativeImage()
+})
