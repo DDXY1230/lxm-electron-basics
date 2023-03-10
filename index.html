@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'"> -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data:; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link rel="stylesheet" href="./app.css">
+  <title>Document</title>
+</head>
+<body>
+  hello
+  <!-- 如果设置了全屏可拖动,那么这种进度条的拖动要额外设置成不可拖动 -->
+  <input style="-webkit-app-region: no-drag" type="range" name="range" min="0" max="10">
+  <button id="btn1"> 按钮1 </button>
+  <button id="btn2"> 按钮2 </button>
+  <button id="btn3"> 按钮3 </button>
+  <button id="btn4"> 按钮4 </button>
+  <img id="img-4" src="" alt="">
+  <img src="https://placekitten.com/500/500" alt="">
+  <script src="./renderer/app.js"></script>
+
+</body>
+</html>
